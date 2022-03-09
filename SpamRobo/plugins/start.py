@@ -52,7 +52,7 @@ async def start(event):
        TheAnon = event.chat_id
        firstname = replied_user.user.first_name
        ownermsg = f"**ʜᴇʏ ʙᴀʙʏ,\n      ᴀᴄᴄᴏʀᴅɪɴɢ ᴛᴏ ᴀɴᴏɴʏᴍᴏᴜs ʏᴏᴜ ᴀʀᴇ ᴍʏ ᴏᴡɴᴇʀ sᴏ ʏᴏᴜ ᴄᴀɴ ᴜsᴇ ᴍᴇ ɪɴ ᴄʜᴀᴛs ᴛᴏ sᴩᴀᴍ, ʀᴀɪᴅ, ʜᴀɴɢ ᴀɴᴅ ᴅᴏɪɴɢ ᴍᴀɴʏ ᴍᴏʀᴇ ᴅɪsᴛᴜʀʙɪɴɢ ᴛʜɪɴɢs.** \n\n©️ @DevilsHeavenMF"
-       usermsg = f"**ʜᴇʏ {firstname},\n\nʟᴇᴛ ᴍᴇ ɪɴᴛʀᴏᴅᴜᴄᴇ ᴍʏsᴇʟғ ʙᴀʙʏ.\n\nɪ ᴀᴍ {bot_id} ᴛʜᴇ ᴍᴏsᴛ ᴘᴏᴡᴇʀғᴜʟ sᴘᴀᴍ-ʙᴏᴛ ᴇᴠᴇʀ ᴍᴀᴅᴇ ʙʏ sᴏᴍᴇᴏɴᴇ.\nɪ ᴀᴍ ʜᴇʀᴇ ᴛᴏ ᴅᴇsᴛʀᴏʏ ᴍʏ ᴏᴡɴᴇʀ's ᴇɴᴇᴍʏ,\nɪ ᴡɪʟʟ ғᴜ*ᴋ ʏᴏᴜ ᴜᴘ ɪғ ʏᴏᴜ ᴇᴠᴇʀ ᴛʀɪᴇᴅ ᴛᴏ ᴍᴇss ᴡɪᴛʜ ᴍʏ ᴏᴡɴᴇʀ !** \n\n█▓▒­░⡷⠂𝗙𝗨𝗖𝗞𝝣𝗥⠂⢾░▒▓█\n[『 𝝙𝗡𝗢𝗡𝗬𝗠𝗢𝗨𝗦 』](tg://user?id={OWNER_ID}\n\n\n©️ @DevilsHeavenMF**"
+       usermsg = f"**ʜᴇʏ {firstname},\n\nʟᴇᴛ ᴍᴇ ɪɴᴛʀᴏᴅᴜᴄᴇ ᴍʏsᴇʟғ ʙᴀʙʏ.\n\nɪ ᴀᴍ {bot_id} ᴛʜᴇ ᴍᴏsᴛ ᴘᴏᴡᴇʀғᴜʟ sᴘᴀᴍ-ʙᴏᴛ ᴇᴠᴇʀ ᴍᴀᴅᴇ ʙʏ sᴏᴍᴇᴏɴᴇ.\nɪ ᴀᴍ ʜᴇʀᴇ ᴛᴏ ᴅᴇsᴛʀᴏʏ ᴍʏ ᴏᴡɴᴇʀ's ᴇɴᴇᴍʏ,\nɪ ᴡɪʟʟ ғᴜ*ᴋ ʏᴏᴜ ᴜᴘ ɪғ ʏᴏᴜ ᴇᴠᴇʀ ᴛʀɪᴇᴅ ᴛᴏ ᴍᴇss ᴡɪᴛʜ ᴍʏ ᴏᴡɴᴇʀ !** \n\n█▓▒­░⡷⠂𝗙𝗨𝗖𝗞𝝣𝗥⠂⢾░▒▓█\n[『 𝝙𝗡𝗢𝗡𝗬𝗠𝗢𝗨𝗦 』](tg://user?id={OWNER_ID}) \n\n\n©️ @DevilsHeavenMF"
        if event.sender_id == OWNER_ID:
             await event.client.send_file(TheAnon,
                   ANON_IMG,
