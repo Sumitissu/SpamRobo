@@ -1,0 +1,5 @@
+build:
+  docker:
+    anon: Dockerfile
+run:
+  anon: python3 -m SpamRobo
