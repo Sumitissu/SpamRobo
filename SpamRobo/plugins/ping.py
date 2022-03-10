@@ -58,5 +58,15 @@ async def ping(e):
         event = await e.reply(text, parse_mode=None, link_preview=None )
         end = datetime.now()
         ms = (end-start).microseconds / 1000
-        await event.edit(f"𝗪𝗧𝗙 !\n𝗛𝗢𝗪'𝗦 𝗧𝗛𝗜𝗦 𝗣𝗢𝗦𝗦𝗜𝗕𝗟𝗘 ?\n\n» ꜰᴜᴄᴋᴇʀ ✘ sᴘᴀᴍ « `{ms}` ᴍs ")
+        await event.edit(f"» ꜰᴜᴄᴋᴇʀ ✘ sᴘᴀᴍ « `{ms}` ᴍs\n\n𝗪𝗧𝗙 !\n𝗛𝗢𝗪'𝗦 𝗧𝗛𝗜𝗦 𝗣𝗢𝗦𝗦𝗜𝗕𝗟𝗘 ?")
         
+
+ANON_PIC = ALIVE_PIC if ALIVE_PIC else "https://telegra.ph/file/ba87c58f01a6fcb5ef512.jpg"
+  
+
+anon = "✯ 𓆩🖤𝝙𝗡𝗢𝗡𝗬𝗠𝗢𝗨𝗦𓆩🖤𓆪 ✯\n\n"
+anon += f"═══════════════════\n"
+anon += f"• **ᴘʏᴛʜᴏɴ ᴠᴇʀsɪᴏɴ** : `3.9.6`\n"
+anon += f"• **ᴛᴇʟᴇᴛʜᴏɴ ᴠᴇʀsɪᴏɴ** : `{version.__version__}`\n"
+anon += f"• **ꜰᴜᴄᴋᴇʀ ᴠᴇʀsɪᴏɴ​**  : `{fversion}`\n"
+anon += f"═══════════════════\n\n"   
