@@ -69,4 +69,30 @@ anon += f"═══════════════════\n"
 anon += f"• **ᴘʏᴛʜᴏɴ ᴠᴇʀsɪᴏɴ** : `3.9.6`\n"
 anon += f"• **ᴛᴇʟᴇᴛʜᴏɴ ᴠᴇʀsɪᴏɴ** : `{version.__version__}`\n"
 anon += f"• **ꜰᴜᴄᴋᴇʀ ᴠᴇʀsɪᴏɴ​**  : `{fversion}`\n"
-anon += f"═══════════════════\n\n"   
+anon += f"═══════════════════\n\n"
+
+@anon.on(events.NewMessage(incoming=True, pattern=r"\%salive(?: |$)(.*)" % hl))
+@anon2.on(events.NewMessage(incoming=True, pattern=r"\%salive(?: |$)(.*)" % hl))
+@anon3.on(events.NewMessage(incoming=True, pattern=r"\%salive(?: |$)(.*)" % hl))
+@anon4.on(events.NewMessage(incoming=True, pattern=r"\%salive(?: |$)(.*)" % hl))
+@anon5.on(events.NewMessage(incoming=True, pattern=r"\%salive(?: |$)(.*)" % hl))
+@anon6.on(events.NewMessage(incoming=True, pattern=r"\%salive(?: |$)(.*)" % hl))
+@anon7.on(events.NewMessage(incoming=True, pattern=r"\%salive(?: |$)(.*)" % hl))
+@anon8.on(events.NewMessage(incoming=True, pattern=r"\%salive(?: |$)(.*)" % hl))
+@anon9.on(events.NewMessage(incoming=True, pattern=r"\%salive(?: |$)(.*)" % hl))
+@anon10.on(events.NewMessage(incoming=True, pattern=r"\%salive(?: |$)(.*)" % hl))
+async def alive(event):
+  if event.sender_id in SUDO_USERS:
+     await event.client.send_file(event.chat_id,
+                                  ANON_PIC,
+                                  caption=anon,
+                                  buttons=[
+        [
+        Button.url("• sᴜᴘᴘᴏʀᴛ •", "https://t.me/DevilsHeavenMF"),
+        Button.url("• ʀᴇᴘᴏ •", "https://telegra.ph/file/b2a4f66615d038f77bb46.mp4")
+        ],
+        [
+        Button.url("• ᴏᴡɴᴇʀ •", "https://t.me/anonymous_was_bot")
+        ]
+        ]
+        )
