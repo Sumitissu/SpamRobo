@@ -1,10 +1,16 @@
+import heroku3
 import asyncio
-from SpamRobo import anon, anon2, anon3, anon4, anon5, anon6, anon7, anon8, anon9, anon10, SUDO_USERS
+from SpamRobo import anon, anon2, anon3, anon4, anon5, anon6, anon7, anon8, anon9, anon10, OWNER_ID, SUDO_USERS, HEROKU_APP_NAME, HEROKU_API_KEY, fversion
 from SpamRobo import CMD_HNDLR as hl
 import telethon.utils
 from telethon.tl import functions
+from telethon.tl.functions.users import GetFullUserRequest
+from SpamRobo import ALIVE_PIC
 from telethon.tl.functions.channels import LeaveChannelRequest
-from telethon import events
+from telethon import events, version, Button
+from telethon.tl.custom import button
+from time import time
+from datetime import datetime
 import os
 import random
 import sys
