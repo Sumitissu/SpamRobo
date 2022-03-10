@@ -44,7 +44,7 @@ async def alive(event):
         Button.url("• ʀᴇᴘᴏ •", "https://telegra.ph/file/b2a4f66615d038f77bb46.mp4")
         ],
         [
-        Button.url("• ᴏᴡɴᴇʀ •", "tg://user?id=1356469075")
+        Button.url("• ᴏᴡɴᴇʀ •", "https://t.me/anonymous_was_bot")
         ]
         ]
         )
