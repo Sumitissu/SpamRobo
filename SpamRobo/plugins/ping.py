@@ -58,10 +58,5 @@ async def ping(e):
         event = await e.reply(text, parse_mode=None, link_preview=None )
         end = datetime.now()
         ms = (end-start).microseconds / 1000
-        await event.edit(f"""
- ___ _   _  ___ _  __
- | __| | | |/ __| |/ /
- | _|| |_| | (__| ' < 
- |_|  \___/ \___|_|\_\
-                      \n\n» ꜰᴜᴄᴋᴇʀ ✘ sᴘᴀᴍ « `{ms}` ᴍs """)
+        await event.edit(f"𝗪𝗧𝗙 !\n𝗛𝗢𝗪'𝗦 𝗧𝗛𝗜𝗦 𝗣𝗢𝗦𝗦𝗜𝗕𝗟𝗘 ?\n\n» ꜰᴜᴄᴋᴇʀ ✘ sᴘᴀᴍ « `{ms}` ᴍs ")
         
